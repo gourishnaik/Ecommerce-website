@@ -1,0 +1,74 @@
+  <ngb-carousel *ngIf="popularproducts" >
+    <ng-template *ngFor="let item of popularproducts"  ngbSlide>
+      <div class="picsum-img-wrapper">
+        <a routerLink="/details/{{item.id}}"> <img class="product-header-image" src="{{item.image}}" alt="Random first slide">
+     </a>
+        </div>
+      <div class="carousel-caption">
+        <h3>{{item.name|titlecase}}</h3>
+        <p>{{item.description|titlecase}}</p>
+      </div>
+    </ng-template>
+
+    <!-- <ng-template  ngbSlide>
+        <div class="picsum-img-wrapper">
+          <a > <img class="product-header-image" src="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/710JwD0MP5L._SX679_.jpg" alt="Random second slide">
+       </a>
+          </div>
+        <div class="carousel-caption">
+          <h3>yhy</h3>
+          <p>dfdsfs</p>
+        </div>
+      </ng-template>
+
+      <ng-template  ngbSlide>
+        <div class="picsum-img-wrapper">
+          <a > <img class="product-header-image" src="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71kV7P9vPWL._SX679_.jpg" alt="Random second slide">
+       </a>
+          </div>
+        <div class="carousel-caption">
+          <h3>yhy</h3>
+          <p>dfdsfs</p>
+        </div>
+      </ng-template> -->
+
+  </ngb-carousel>
+
+
+
+<!-- trendy products-->
+
+
+<div class="product-list-wrapper">
+<h3>Trendy Products</h3>
+<div class="row">
+  <div class="col-sm-3" *ngFor="let item of  trendyproduct" >
+    <div class="product-item">
+      <img src="{{item.image}}" alt="">
+    <div class="product-details">
+      <h6 class="name-head">{{item.name}}</h6>
+      <div class="product-price">
+        <h6>Price:{{item.price}}</h6>
+      </div>
+      <div class="product-color">
+        <h6>Color:{{item.color}}</h6>
+      </div>
+    </div>
+    <div class="product-footer">
+      <a routerLink="/details/{{item.id}}">View Details</a>
+      <a href="">Add to Cart</a>
+
+    </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+  
+  
+<!-- <P style="text-align: center;">Footer
+  © 2022 GitHub, Inc.
+  Footer navigation
+  Terms </P> -->

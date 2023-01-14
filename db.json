@@ -47,6 +47,12 @@
       "password": "abcd",
       "email": "abc@gmail.com",
       "id": 8
+    },
+    {
+      "name": "gou",
+      "password": "g@gmail.com",
+      "email": "sdwsdwadfae",
+      "id": 9
     }
   ],
   "products": [
@@ -129,6 +135,141 @@
       "email": "jack213@gmail.com",
       "password": "dfferr",
       "id": 11
+    },
+    {
+      "name": "dfdf",
+      "email": "fdfd",
+      "password": "dfdf",
+      "id": 12
+    },
+    {
+      "name": "ggg",
+      "email": "gg",
+      "password": "gg",
+      "id": 13
+    }
+  ],
+  "cart": [
+    {
+      "name": "hp laptop",
+      "price": 323723,
+      "category": "laptop",
+      "color": "black",
+      "description": "laptop hp windows 11",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71bnWlbwQ-L._SX679_.jpg",
+      "quantity": 2,
+      "productid": 2,
+      "userid": 9,
+      "id": 1
+    },
+    {
+      "name": "chair",
+      "price": "956",
+      "category": "chair",
+      "color": "brown",
+      "description": "good comfortable chair",
+      "image": "https://www.ikea.com/in/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
+      "quantity": 1,
+      "productid": 5,
+      "userid": 9,
+      "id": 2
+    },
+    {
+      "name": "hp laptop",
+      "price": 323723,
+      "category": "laptop",
+      "color": "black",
+      "description": "laptop hp windows 11",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71bnWlbwQ-L._SX679_.jpg",
+      "quantity": 1,
+      "productid": 2,
+      "userid": 9,
+      "id": 3
+    },
+    {
+      "name": "hp laptop",
+      "price": 323723,
+      "category": "laptop",
+      "color": "black",
+      "description": "laptop hp windows 11",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71bnWlbwQ-L._SX679_.jpg",
+      "quantity": 1,
+      "userid": 11,
+      "productid": 2,
+      "id": 8
+    },
+    {
+      "name": "Happilo Premium ",
+      "price": 276,
+      "category": "dates",
+      "color": "pink",
+      "description": "Pistachios from Happilo are salted and roasted, which enhances their delicious taste. They are of the yummiest flavor and will drive you nuts with their crunchiness and freshness",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/41maauEoT+L._SY300_SX300_.jpg",
+      "quantity": 1,
+      "userid": 11,
+      "productid": 6,
+      "id": 9
+    },
+    {
+      "name": "Happilo Premium ",
+      "price": 276,
+      "category": "dates",
+      "color": "pink",
+      "description": "Pistachios from Happilo are salted and roasted, which enhances their delicious taste. They are of the yummiest flavor and will drive you nuts with their crunchiness and freshness",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/41maauEoT+L._SY300_SX300_.jpg",
+      "quantity": 1,
+      "userid": 11,
+      "productid": 6,
+      "id": 10
+    },
+    {
+      "name": "chair",
+      "price": "956",
+      "category": "chair",
+      "color": "brown",
+      "description": "good comfortable chair",
+      "image": "https://www.ikea.com/in/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
+      "quantity": 1,
+      "userid": 11,
+      "productid": 5,
+      "id": 11
+    },
+    {
+      "name": "chair",
+      "price": "956",
+      "category": "chair",
+      "color": "brown",
+      "description": "good comfortable chair",
+      "image": "https://www.ikea.com/in/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
+      "quantity": 1,
+      "userid": 11,
+      "productid": 5,
+      "id": 12
+    },
+    {
+      "name": "chair",
+      "price": "956",
+      "category": "chair",
+      "color": "brown",
+      "description": "good comfortable chair",
+      "image": "https://www.ikea.com/in/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
+      "quantity": 1,
+      "userid": 11,
+      "productid": 5,
+      "id": 13
+    },
+    {
+      "name": "hp laptop",
+      "price": 323723,
+      "category": "laptop",
+      "color": "black",
+      "description": "laptop hp windows 11",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71bnWlbwQ-L._SX679_.jpg",
+      "quantity": 1,
+      "fullprice": 323723,
+      "userid": 8,
+      "productid": 2,
+      "id": 14
     }
   ]
 }

@@ -67,7 +67,7 @@
     },
     {
       "name": "hp laptop",
-      "price": 323723,
+      "price": 32373,
       "category": "laptop",
       "color": "black",
       "description": "laptop hp windows 11",
@@ -152,43 +152,7 @@
   "cart": [
     {
       "name": "hp laptop",
-      "price": 323723,
-      "category": "laptop",
-      "color": "black",
-      "description": "laptop hp windows 11",
-      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71bnWlbwQ-L._SX679_.jpg",
-      "quantity": 2,
-      "productid": 2,
-      "userid": 9,
-      "id": 1
-    },
-    {
-      "name": "chair",
-      "price": "956",
-      "category": "chair",
-      "color": "brown",
-      "description": "good comfortable chair",
-      "image": "https://www.ikea.com/in/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg?f=xxs",
-      "quantity": 1,
-      "productid": 5,
-      "userid": 9,
-      "id": 2
-    },
-    {
-      "name": "hp laptop",
-      "price": 323723,
-      "category": "laptop",
-      "color": "black",
-      "description": "laptop hp windows 11",
-      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71bnWlbwQ-L._SX679_.jpg",
-      "quantity": 1,
-      "productid": 2,
-      "userid": 9,
-      "id": 3
-    },
-    {
-      "name": "hp laptop",
-      "price": 323723,
+      "price": 32323,
       "category": "laptop",
       "color": "black",
       "description": "laptop hp windows 11",
@@ -259,17 +223,99 @@
       "id": 13
     },
     {
-      "name": "hp laptop",
-      "price": 323723,
-      "category": "laptop",
+      "name": "happy healthy",
+      "price": 654,
+      "category": "eatables",
       "color": "black",
-      "description": "laptop hp windows 11",
-      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71bnWlbwQ-L._SX679_.jpg",
+      "description": "its eatable product",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/71kV7P9vPWL._SX679_.jpg",
       "quantity": 1,
-      "fullprice": 323723,
+      "fullprice": 654,
       "userid": 8,
-      "productid": 2,
+      "productid": 1,
       "id": 14
+    }
+  ],
+  "orders": [
+    {
+      "email": "test",
+      "address": "testing",
+      "phonenumber": 3232,
+      "id": 1
+    },
+    {
+      "email": "wee",
+      "address": "ewew",
+      "phonenumber": 2323232,
+      "id": 2
+    },
+    {
+      "email": "dummy",
+      "address": "wew",
+      "phonenumber": 3232323,
+      "id": 3
+    },
+    {
+      "email": "",
+      "address": "",
+      "phonenumber": "",
+      "id": 4
+    },
+    {
+      "email": "asa",
+      "address": "asas",
+      "phonenumber": 232323,
+      "id": 5
+    },
+    {
+      "email": "tesing",
+      "address": "ew",
+      "phonenumber": 3333,
+      "id": 6
+    },
+    {
+      "email": "",
+      "address": "",
+      "phonenumber": "",
+      "id": 7
+    },
+    {
+      "email": "",
+      "address": "",
+      "phonenumber": "",
+      "id": 8
+    },
+    {
+      "email": "",
+      "address": "",
+      "phonenumber": "",
+      "id": 9
+    },
+    {
+      "email": "asa",
+      "address": "sasa",
+      "phonenumber": 222,
+      "totalprice": 726.6999999999999,
+      "userid": {
+        "name": "gourish",
+        "email": "gourishpnaik@gmail.com",
+        "password": "gourishnaik",
+        "id": 8
+      },
+      "id": 10
+    },
+    {
+      "email": "",
+      "address": "",
+      "phonenumber": "",
+      "totalprice": 726.6999999999999,
+      "userid": {
+        "name": "gourish",
+        "email": "gourishpnaik@gmail.com",
+        "password": "gourishnaik",
+        "id": 8
+      },
+      "id": 11
     }
   ]
 }
